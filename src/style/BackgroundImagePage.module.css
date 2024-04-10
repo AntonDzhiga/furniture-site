@@ -1,6 +1,0 @@
-.background-image-page {
-  background-image: url('../assets/background-image-page.png'); /* Шлях до вашого зображення */
-  background-size: contain; /* Масштабує зображення так, щоб його максимальний розмір був рівним розміру контейнера */
-  background-repeat: no-repeat; /* Запобігає повторенню зображення у разі, якщо воно менше за фон */
-  background-attachment: fixed; /* Закріплює зображення, щоб воно не прокручувалося разом із сторінкою */
-}
