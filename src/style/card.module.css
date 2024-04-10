@@ -50,11 +50,13 @@
 }
 
 .buttonCatalog:hover {
+  color: black;
   background: rgba(2, 0, 36, 0.623);
   background: linear-gradient(
     90deg,
-    rgba(30, 144, 255, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(211, 211, 211) 0%,
+    rgb(248, 254, 255) 100%
+    
   );
 }
 
