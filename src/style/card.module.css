@@ -1,0 +1,101 @@
+.cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cartBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 350px;
+  width: 250px; 
+  background-color: #dedede;
+  margin-bottom: 35px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.244);
+}
+
+.cartBox img {
+  max-width: 150px; 
+  max-height: 150px; 
+  object-fit: cover; 
+}
+
+
+.cartBoxTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.description {
+  text-align: start;
+}
+
+.buttonCatalog {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.buttonCatalog:hover {
+  background: rgba(2, 0, 36, 0.623);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.buttonCatalog:active {
+  transform: translate(0em, 0.2em);
+}
+
+.horizontalPagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.horizontalPagination li {
+  margin-right: 5px;
+}
+
+.horizontalPagination li:last-child {
+  margin-right: 0;
+}
+
+.horizontalPagination button {
+  background-color: #DEDEDC; 
+  border: none;
+  color: black;
+  padding: 10px 20px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.horizontalPagination button:hover {
+  background-color: #8f8f8f; 
+}
+
+.horizontalPagination button.active {
+  background-color: black; 
+  color: white;
+}

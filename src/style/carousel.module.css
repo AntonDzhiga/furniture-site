@@ -1,0 +1,39 @@
+.review_carousel {
+    width: 35vw;
+}  
+
+.review_carousel .review_card .review_image img {
+    width: auto;
+    height: 600px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+   
+    .review_carousel {
+        width: 50.313vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+          
+    .review_carousel {
+        width: 70.313vw;
+    }
+    
+    .review_card {
+        padding: 15px 30px;
+    }
+
+    .review_carousel .review_card .review_image {
+        height: 20px;
+        display: none;
+    }
+    .review_carousel {
+        display: none;
+    }  
+    
+}
+
