@@ -1,0 +1,69 @@
+.map_container {
+  width: 68.750vw;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  padding-top: 120px;
+  align-items: center; /* Center horizontally */
+}
+
+.map_container .title {
+  font-size: 36px;
+}
+
+.adress{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.text, .contacts{
+background-color: #DEDEDC;
+border: 1px solid black;
+padding: 20px;
+border-radius: 25px;
+margin: 0 10px 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .map_container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map_container {
+    padding-top: 100px;
+  }
+
+  .map_container .map_container-inner {
+    flex-direction: column;
+  }
+
+  .adress{
+    display: block;
+  }
+  .text{
+    margin-bottom: 20px;
+  }
+    
+  
+
+}
+
+@media screen and (max-width: 576px) {
+  .map_container {
+    width: 100%;
+    padding: 80px 15px 0;
+  }
+
+}
+
+
+
+
+

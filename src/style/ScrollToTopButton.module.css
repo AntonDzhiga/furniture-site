@@ -1,0 +1,31 @@
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    display: none;
+  }
+  
+  .scroll-to-top-btn button {
+    padding: 10px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top-btn.show {
+    display: block;
+  }
+  
+.scroll-to-top-btn img{
+  height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .scroll-to-top-btn {
+    bottom: 100px;
+    right: 40px;
+  }
+
+}
